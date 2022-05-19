@@ -1,0 +1,45 @@
+body {
+    background: #B8860B;
+    font-family: sans-serif;
+  }
+   
+  h2 {
+    font-size: 300%;  
+    margin-top: 50px;
+    color: #030303;
+  }
+   
+  .login {
+    padding: 1em;
+    margin: 2em auto;
+    width: 17em;
+    background: #fff;
+    border-radius: 3px;
+  }
+   
+  label:hover {
+    background-color: #ffffff;
+    font-size: 15pt;
+    color: #555;
+  }
+   
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    width: 95%;
+    background: #efefef;
+    box-shadow: 0.2px 0.4px;
+    border: 0;
+    font-size: 10pt;
+    margin: 6px 0px;
+  }
+   
+  .tombol:hover {
+    font-size: 20px;
+    background: #bed10f;
+    color: rgb(12, 11, 11);
+    box-shadow: #e90909;
+    border: 0;
+    padding: 5px 10px;
+  }
