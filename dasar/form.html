@@ -8,6 +8,7 @@
 </head>
 <!-- input, text area, select, button, label -->
 <body>
+<form action="heading.html">
     <label for="username">username : </label> 
     <input type="text" id="username"><!-- id dan label sama kelebihannya bisa klik labelny -->
     <br> <br>
@@ -16,11 +17,19 @@
     <br><br>
 <input type="radio" name="jeniskelamin" id="wanita"> <label for="wanita">Wanita</label>
 <input type="radio" name="jeniskelamin" id="pria"><label for="pria">Pria</label>
-<br> <br>
+    <br> <br>
 <input type="checkbox" name="hobi" id="membaca"><label for="membaca">Membaca</label>
 <input type="checkbox" name="hobi" id="basket"><label for="basket">Basket</label>
 <input type="checkbox" name="hobi" id="futsal"><label for="futsal">Futsal</label>
-<br> <br>
+    <br> <br>
+<textarea name="komentar" id="komentar" cols="10" rows="5"></textarea> <!--KOLOM TEXT AREA-->
+    <br> <br>
+<select>
+    <option value="bandung">bandung</option>
+    <option value="jakrta">jakrta</option>
+    <option value="jogja">jogja</option>
+</select>
 <button type="submit">Kirim ! </button>
+</form>
 </body>
 </html>
