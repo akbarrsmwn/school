@@ -1,0 +1,38 @@
+.flex-column {
+    display: flex;
+    flex-direction: column;
+
+    /* properti lainnya */
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #11C5C6;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    
+    /* properti lainnya */
+    padding: 20px;
+    margin: 5px;
+    background-color: #FBDD1C;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.box {
+    flex-grow: 1;
+    /* properti lainnya */
+    width: 100px;
+    margin: 5px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: #fe899a;
+    text-align: center;
+    font-size: 1.5em;
+}

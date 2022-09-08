@@ -1,20 +1,21 @@
-// function tampilkan(){
-// document.querySelector("p").innerHTML="Judul di klik";
-// //  }
-// function tampilkanClick(){
-//     document.querySelector("p").innerHTML="Judul di klik";
-//     }
+function tampilkan(){
+document.querySelector("p").innerHTML="Judul di klik";
+//  }
+function tampilkanClick(){
+    document.querySelector("p").innerHTML="Judul di klik";
+    }
   
 // Event mouse klik dll
 
-// function tampilkanClickh3(){
-//     document.querySelector("h3").innerHTML="Judul di klik";
-//     }
+function tampilkanClickh3(){
+    document.querySelector("h3").innerHTML="Judul di klik";
+    }
    
 
-// var h1Node = document.getElementById("judul");
-// h1Node.addEventListener("click",tampilkanClick);
-// h1Node.addEventListener("click",tampilkanClickh3);
+var h1Node = document.getElementById("judul");
+h1Node.addEventListener("click",tampilkan);
+h1Node.addEventListener("click",tampilkanClick);
+h1Node.addEventListener("click",tampilkanClickh3);
 // h1Node.removeEventListener("click",tampilkanClickh3); // remove
 
 // h1Node.addEventListener("dblclick",tampilkanDblclick);
@@ -53,32 +54,32 @@
 
 
 //form 
-var usernameNode = document.getElementById("username");
-var emailNode = document.getElementById("email");
+// var usernameNode = document.getElementById("username");
+// var emailNode = document.getElementById("email");
 
-    function diFocus(e){
-        e.target.style.border = "5px solid aqua";
- }
-    function diBlur(e){
-        e.target.style.border = "2px solid red";
- }
+//     function diFocus(e){
+//         e.target.style.border = "5px solid aqua";
+//  }
+//     function diBlur(e){
+//         e.target.style.border = "2px solid red";
+//  }
 
- usernameNode.addEventListener("focus",diFocus);
- emailNode.addEventListener("focus",diFocus);
+//  usernameNode.addEventListener("focus",diFocus);
+//  emailNode.addEventListener("focus",diFocus);
  
- usernameNode.addEventListener("blur",diBlur);
- emailNode.addEventListener("blur",diBlur);
+//  usernameNode.addEventListener("blur",diBlur);
+//  emailNode.addEventListener("blur",diBlur);
 
-var focusUNode = document.getElementById("focusU")
-var focusENode = document.getElementById("focusE")
+// var focusUNode = document.getElementById("focusU")
+// var focusENode = document.getElementById("focusE")
 
-focusUNode.addEventListener("click",function(){
-    usernameNode.focus();
-}); 
+// focusUNode.addEventListener("click",function(){
+//     usernameNode.focus();
+// }); 
 
-focusENode.addEventListener("click",function(){
-    usernameNode.focus();
-});
+// focusENode.addEventListener("click",function(){
+//     usernameNode.focus();
+// });
 
 
 //password
