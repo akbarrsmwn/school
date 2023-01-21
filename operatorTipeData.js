@@ -2,15 +2,15 @@
 // let y = false
 // const a = 10;
 // const b = 2;
+
 // const c = 3;
 
 // d = a + b;
-// // e = a - b * c;
+// e = a - b * c;
 // f = a % c;
 // console.log("hasil perkalian antara  a & b ", d)
-//     // console.log("hasil perhitungan e", e)
+// console.log("hasil perhitungan e", e)
 // console.log("modulus dari a & c adalah", f)
-
 
 // console.log('tipe data x', typeof(x))
 // console.log('tipe data y ', typeof(y))
@@ -20,8 +20,6 @@
 
 // let a = 100;
 // console.log(--a)
-
-
 
 // console.log(a === 100)
 // console.log(a === "100")
@@ -42,10 +40,21 @@
 // console.log(a === 100 && b === 101) //b&&b
 // console.log(a === 101 && b === 101) // s && b
 // console.log(a === 100 && b === 100) // b && s
-// console.log(a === 100 || b === 101) // b or b 
+// console.log(a === 100 || b === 101) // b or b
 // console.log(a === 200 || b === 101) // s or b
 // console.log(a === 100 || b === 1010) // b or s
 
 // let f = false
 // console.log(f)
 // console.log(!f)
+
+//tipe data string pakai + dan string menggunakan template literal `` backtik
+let nama = "akbar";
+let sekolah = "smk mq";
+let umur = 26;
+
+console.log("halo saya " + nama + " Saya Mengajar di " + sekolah);
+// let salam = "saya " + nama + " bekerja di " + sekolah + " umur " + umur + " tahun";
+
+let salam = `Selamat Datang ${nama} di ${sekolah}`;
+console.log(salam);

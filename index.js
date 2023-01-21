@@ -19,11 +19,10 @@
 // const pangkat = modulus ** 3;
 // console.log(pangkat);
 
-
 // let a = 10;
 // let b = 3;
 // c = a * b;
-// //d = a + c
+//d = a + c
 // console.log("hasil perkailan a dan b adalah " + c)
 //console.log("hasil penjumlahan a + c adalah " + d)
 
@@ -38,13 +37,12 @@ console.log(namadepan + namabelakang) */
 
 //console.log(1 <= 1) // perbandingan == === != !== <= >=
 
-var makan = true //operator logika && || !
-var minum = false
-console.log(makan || minum)
+var makan = true; //operator logika && || !
+var minum = false;
+console.log(makan || minum);
 
 // let namaSaya = "akbar"; // 1. variable  string
 // const umurSaya = 25; // variable number
-
 
 /* console.log("Javascript Hoisting");
 console.log("--------------------");
@@ -100,7 +98,7 @@ namasaya() */
 //     return 'Mobil ini bermerk ' + carName;
 // }
 
-//console.log(displayCarName()) 
+//console.log(displayCarName())
 
 // let manusia = { // 18. menambah objek nilai false
 //   kepala: true,
@@ -115,7 +113,7 @@ namasaya() */
 //   return s = 5*5
 // }
 
-// console.log(luasPersegi) 
+// console.log(luasPersegi)
 
 // Fungsi yang berdiri sendiri
 // function sapa() {
@@ -124,7 +122,7 @@ namasaya() */
 
 //   console.log(sapa()); // Output: Selamat Pagi!
 
-//   // Fungsi disimpan di dalam variabel
+// Fungsi disimpan di dalam variabel
 
 //   let berkenalan = function() {
 //     return "Hallo, nama saya Sarah.";

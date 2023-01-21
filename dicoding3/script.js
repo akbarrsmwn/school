@@ -1,4 +1,4 @@
-const txtElement = ["Website", "Rempahin", "Indonesia"];
+const txtElement = ["Website", "Biodata", "Indonesia"];
 let count = 0;
 let txtIndex = 0;
 let currentText = "";
