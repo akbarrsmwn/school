@@ -1,3 +1,7 @@
+for (var i = 10; i >= 1; i--) {
+  console.log("hello world " + i);
+}
+
 // const penjumlahan = 10 + 5;
 // console.log(penjumlahan);
 
@@ -20,7 +24,6 @@
     return a + b;
 }
 console.log(sum(5, 7)); */
-
 
 // var makan = true //operator logika && || !
 // var minum = true

@@ -44,19 +44,19 @@ console.log(makan || minum);
 // let namaSaya = "akbar"; // 1. variable  string
 // const umurSaya = 25; // variable number
 
-/* console.log("Javascript Hoisting");
+console.log("Javascript Hoisting");
 console.log("--------------------");
-masukrumah()
+masukrumah();
 
 function masukrumah() {
-    let manusia = {
-        nama: "akbar", 
-        habis: "main ?"
-    }
-    console.log(`Hai ${manusia.nama}, kamu dari pergi ${manusia.habis}`)
-} */
+  let manusia = {
+    nama: "akbar",
+    habis: "main ?",
+  };
+  console.log(`Hai ${manusia.nama}, kamu dari pergi ${manusia.habis}`);
+}
 
-//global scope
+// global scope
 
 /* let manusia = {
     nama: "akbar",
@@ -136,3 +136,10 @@ namasaya() */
 // object[foo] = 'value'
 // console.log(object[bar])
 // Tulis kode kalian di bawah ini
+
+var siswa = ["ajis", "yahya", "fawaz", "rehan"];
+
+var key;
+for (key in siswa) {
+  console.log(`element array siswa ke ${key} = ${siswa[key]}`);
+}

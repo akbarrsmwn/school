@@ -1,43 +1,51 @@
-
-const lipatanTiga = []
-for ( let i = 0; i<50;i++){
-    if ( i%3==0){
-        lipatanTiga.push(i);
-    }
+const lipatanTiga = [];
+for (let i = 0; i < 50; i++) {
+  if (i % 3 == 0) {
+    lipatanTiga.push(i);
+  }
 }
 console.log(lipatanTiga);
 
-
-
- function luas(p, l) {
-    return p * l;
+function luas(p, l) {
+  return p * l;
 }
-console.log(luas(5, 7)); 
+console.log(luas(5, 7));
 
 function kell(s) {
-    return s+s+s+s;
+  return s + s + s + s;
 }
-console.log(kell(5)); 
+console.log(kell(5));
 
-var s = ''
-for (var i = 0; i<2; i++){
-    for (var j = 0; j<5;j++){
-    s += '*'
-    }
-s += '\n';
+var s = "";
+for (var i = 0; i < 2; i++) {
+  for (var j = 0; j < 5; j++) {
+    s += "*";
+  }
+  s += "\n";
 }
-console.log(s)
+console.log(s);
 
-class Hewan {
-    constructor( karnivora, jumlahKaki){
-        this.kaki = jumlahKaki;
-        this.hewannya = karnivora;
-    }
-    darat (){
-        return " Hewan Pemakan daging  " + this.hewannya ;
-    }
-   
-}   
+// class Hewan {
+//   constructor(karnivora, jumlahKaki) {
+//     this.kaki = jumlahKaki;
+//     this.hewannya = karnivora;
+//   }
+//   darat() {
+//     return " Hewan Pemakan daging  " + this.hewannya;
+//   }
+// }
 
-var hewanKarnivora = new Hewan ('Macan',4);
-console.log(hewanKarnivora)
+// var hewanKarnivora = new Hewan("Macan", 4);
+// console.log(hewanKarnivora);
+
+function Siswa(nama, jurusan, umur) {
+  this.nama = nama;
+  this.jurusan = jurusan;
+  this.umur = umur;
+}
+Siswa.prototype.sekolah = "SMK MQ";
+Siswa.prototype.pergi = function (tempat) {
+  return "Pergi ke " + tempat + " Si " + this.nama;
+};
+var siswaRehan = new Siswa("Rehan ", "X-RPL", 16);
+console.log(siswaRehan.pergi("Jonggol"));

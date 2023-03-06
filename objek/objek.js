@@ -26,11 +26,6 @@
 // };
 // console.log(user.perkenalanDiri())
 
-
-
-
-
-
 // let angka = [1, 46, 75, 12, 89, 54, 101];
 
 // let ganjil = [];
@@ -45,3 +40,37 @@
 // }
 
 // console.log(ganjil)
+
+//dea afrizal sesi 10 smtr 1 cuy university
+
+const siswa = [
+  {
+    nama: "azis",
+    umur: 15,
+    hoby: "bola",
+    nilaiJs: 88.8,
+  },
+  {
+    nama: "ahmad",
+    umur: 12,
+    hoby: "voli",
+    nilaiJs: 90,
+  },
+  {
+    nama: "adi",
+    umur: 13,
+    hoby: "futsal",
+    nilaiJs: 100,
+  },
+];
+
+function getDetailData() {
+  // panggil di console this function
+  siswa.map(function (result) {
+    console.table(result);
+  });
+
+  //   siswa.forEach(result => {
+  //     console.log(result)
+  //   })
+}
