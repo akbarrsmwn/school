@@ -9,7 +9,7 @@ document.getElementById("btn-set").addEventListener("click", function () {
 });
 
 document.getElementById("btn-remove").addEventListener("click", function () {
-  document.getElementById("b").removeAttribute("class");
+  document.getElementById("b").remove("b");
 });
 
 document.getElementById("btn-get").addEventListener("click", function () {

@@ -1,45 +1,43 @@
-body {
-    background: #B8860B;
-    font-family: sans-serif;
-  }
-   
-  h2 {
-    font-size: 300%;  
-    margin-top: 50px;
-    color: #030303;
-  }
-   
-  .login {
-    padding: 1em;
-    margin: 2em auto;
-    width: 17em;
-    background: #fff;
-    border-radius: 3px;
-  }
-   
-  label:hover {
-    background-color: #ffffff;
-    font-size: 15pt;
-    color: #555;
-  }
-   
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    padding: 10px;
-    width: 95%;
-    background: #efefef;
-    box-shadow: 0.2px 0.4px;
-    border: 0;
-    font-size: 10pt;
-    margin: 6px 0px;
-  }
-   
-  .tombol:hover {
-    font-size: 20px;
-    background: #bed10f;
-    color: rgb(12, 11, 11);
-    box-shadow: #e90909;
-    border: 0;
-    padding: 5px 10px;
-  }
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: grey;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form{
+  background: rgb(214, 214, 214);
+  padding: 30px;
+  text-align: center;
+  border-radius: 15px;
+  width: 350px;
+}
+
+form input{
+  display: block;
+  background: none;
+  margin: 18px auto;
+  padding: 8px;
+  text-align: center;
+  border: 2px solid #4090db;
+  outline: none;
+  width: 180px;
+  font-size: 22px;
+  border-radius: 10px;
+}
+
+form input[type = "submit"]{
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 800;
+  background: #4090db;
+  color: white;
+}
+
+p{
+  color: red;
+  font-size: 22px;
+  font-weight: 600;
+}

@@ -72,5 +72,5 @@ function getDetailData() {
 
   //   siswa.forEach(result => {
   //     console.log(result)
-  //   })
+  //    })
 }
