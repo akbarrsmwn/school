@@ -39,7 +39,32 @@
 
 // let buah = ["Pisang", "Jeruk", "Apel", "Mangga"];
 
-// buah.splice(0, 2, "Lemon", "Kiwi");
-// buah.splice(2)
+// buah.splice(0, 2, "Lemon", "Kiwi"); // jika 2 angka angka pertama start index dan kedua menghapus brp index kedua
+// buah.splice(2) // jika splice 1 angka maka akan langsung menghapus index
 
 // console.log(buah);
+
+var hewan = ['ayam', 'bebek', 'angsa'];
+hewan.forEach(display);
+
+function display (element){
+    console.log(element);;
+}
+
+
+var angka = [1,2,3,10,12];
+var filterNums = angka.filter(filterNumber)
+
+function filterNumber (element){
+    return element > 5;
+}
+console.log(filterNums);
+
+
+var angkaLebihDari5 = angka.filter(function(angka) {
+  return angka > 5;
+});
+
+console.log(angkaLebihDari5);
+
+

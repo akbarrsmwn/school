@@ -7,7 +7,7 @@
 
 header {
   height: 70px;
-  background-color: #C1EC2E;
+  background-color: #ffffff;
 }
 header h1 {
   padding: 16px 20px;
@@ -19,7 +19,7 @@ header h1 a {
   transition: 0.3s;
 }
 header h1 a:hover {
-  color: darkgreen;
+  color: rgba(255, 115, 0, 0.66);
 }
 
 header ul {
@@ -34,7 +34,7 @@ header ul li a {
   transition: 0.2s;
 }
 header ul li a:hover {
-  color: green;
+  color: rgba(128, 0, 0, 0.631);
 }
 a {
   text-decoration: none;
@@ -91,7 +91,7 @@ a {
 }
 
 .banner {
-  background-color:#4FD242;
+  background-color:#ffffff;
 }
 section {
   padding:50px;

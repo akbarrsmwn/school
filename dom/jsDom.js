@@ -4,8 +4,9 @@ judul.style.color = "red"; // mengganti style
 
 judul.style.backgroundColor = "lightblue"; // cammelCase
 judul.innerHTML = "<em>Akbar Rismawan</em>"; // merubah judul
-// const sectionA = document.querySelector("section#a"); // section#a ditampung ke variable
-// sectionA.innerHTML = " Hello world !";
+
+const sectionA = document.querySelector("section#a"); // section#a ditampung ke variable
+sectionA.innerHTML = " Hello world !";
 
 // const judul = document.querySelector("#judul");
 // judul.style.color = "brown";

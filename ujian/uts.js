@@ -94,3 +94,18 @@ class Hewan {
 }
 
 var hewanKarnivora = new Hewan("Macan", 4);
+
+/*    class Mahasiswa {
+  constructor (nama, umur, ...) {
+    .....
+    .....
+  }
+  main( mall, pasar,...) {
+    return ...
+  }
+}
+
+deklarasi variable ...
+*/
+
+var hewanKarnivora = new Hewan("Macan", 4);

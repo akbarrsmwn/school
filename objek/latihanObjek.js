@@ -18,24 +18,25 @@
 // };
 
 //Function Declaration
-// function Siswa(nama, energi) {
-//   let siswa = {};
-//   siswa.nama = nama;
-//   siswa.energi = energi;
+function Siswa(nama, energi) {
+  let siswa = {};
+  siswa.nama = nama;
+  siswa.energi = energi;
 
-//   siswa.makan = function (porsi) {
-//     this.energi += porsi;
-//     return console.log(` halo  ${this.nama}, selamat makan!`);
-//   };
-//   siswa.main = function (jam) {
-//     this.energi -= jam * 2;
-//     return console.log(` halo  ${this.nama}, staminamu berkurang setelah bermain`);
-//   };
-//   return siswa;
-// }
+  siswa.makan = function (porsi) {
+    this.energi += porsi;
+    return console.log(` halo  ${this.nama}, selamat makan!`);
+  };
+  siswa.main = function (jam) {
+    this.energi -= jam * 2;
+    return console.log(` halo  ${this.nama}, staminamu berkurang setelah bermain`);
+  };
+  return siswa;
+}
 
-// let nabil = Siswa("nabil", 30);
+let nabil = Siswa("nabil", 30);
 // let sugih = Siswa(" Sugih", 25);
+// console.log(nabil);
 
 //Function Declaration
 
@@ -96,3 +97,27 @@
 //   };
 // }
 // let mulya = SiswaMq("mulya", 15);
+
+
+/*objek literal
+
+let Siswa = {
+  nama: "...",
+  energi: ...,
+  makan: function (porsi) {
+  ....
+  ....
+  },
+
+   main: function (menit) {
+  ....
+  ....
+  },
+
+   istirahat: function (jam) {
+  ....
+  ....
+  },
+};
+
+*/
